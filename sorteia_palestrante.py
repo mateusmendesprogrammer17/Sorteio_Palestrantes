@@ -1,16 +1,12 @@
 import random
-primeiroPalestrante=1 
 
-segundoPalestrante =2
+primeiroPalestrante = "Mateus"
+segundoPalestrante = "Jean"
+numeroDeSorteios = 10
 
-
-
-for i in range(10):
-    sorteio=random.randint(1,2);
-    if sorteio==1:
-        
-        print (f"\nMateus {sorteio}")
+for i in range(numeroDeSorteios):
+    sorteio = random.randint(1, 2)
+    if sorteio == 1:
+        print(f"\n{primeiroPalestrante} foi sorteado: {sorteio}")
     else:
-        print(f"\nJean {sorteio}")
-
-
+        print(f"\n{segundoPalestrante} foi sorteado: {sorteio}")
