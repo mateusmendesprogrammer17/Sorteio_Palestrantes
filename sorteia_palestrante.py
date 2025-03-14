@@ -1,7 +1,7 @@
 import random
-palestrante_mateus=1 
+primeiroPalestrante=1 
 
-palestrante_jean =2
+segundoPalestrante =2
 
 
 
